@@ -28,14 +28,14 @@
             </ul>
         </nav>
         <ul class="contacts">
-            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <li class="item"><a class="link icon-mail" href="mailto:info@devstudio.com">@devstudio.com</a></li>
+            <li class="item"><a class="link icon-cell" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </div>
     </header>
     <main>
         <!-- HERO -->
-        <section class="hero">
+        <section class="hero overlay">
             <div class="container-hero-title">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="hero-button" type="button">Замовити послугу</button>
@@ -47,20 +47,20 @@
             <div class="container">
                 <h2 class="visually-hidden">Особливості</h2>
                 <ul class="features-list">
-                    <li class="feature">
+                    <li class="feature icon-details">
                         <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
-                    <li class="feature">
+                    <li class="feature icon-punctuality">
                         <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
                         <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
-                    <li class="feature">
+                    <li class="feature icon-plan">
                         <h3 class="feature-title">ПЛАНУВАННЯ</h3>
                         <p>Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
-                    <li class="feature">
-                        <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <li class="feature icon-technologies">
+                        <h3 class="feature-title ">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                         <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
@@ -97,12 +97,24 @@
                             <h3 class="team-title">Ігор Дем'яненко</h3>
                             <p>Product Designer</p>
                         </div>
+                        <div class="team-social">
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/ourteam2-repina.jpg" alt="Ольга Рєпіна" width="270" height="260">
                         <div class="team-text">
                             <h3 class="team-title">Ольга Рєпіна</h3>
                             <p>Frontend Developer</p>
+                        </div>
+                        <div class="team-social">
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
                         </div>
                     </li>
                     <li class="team-card">
@@ -111,6 +123,12 @@
                             <h3 class="team-title">Микола Тарасов</h3>
                             <p>Marketing</p>
                         </div>
+                        <div class="team-social">
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/ourteam4-yermakov.jpg" alt="Михайло Єрмаков" width="270" height="260">
@@ -118,25 +136,62 @@
                             <h3 class="team-title">Михайло Єрмаков</h3>
                             <p>UI Designer</p>
                         </div>
+                        <div class="team-social">
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                            <div class="social-links"></div>
+                        </div>
                     </li>
                 </ul>
             </div> 
         </section>
+        <!-- ПОСТІЙНІ КЛІЄНТИ -->
+        <section class="clients section">
+            <div class="container">
+            <h2 class="title-next">Постійні клієнти</h2>
+                <ul class="clients-list">
+                    <li class="client-item icon-yaco">
+                    </li>
+                    <li class="client-item icon-here">
+                    </li>
+                    <li class="client-item icon-company">
+                    </li>
+                    <li class="client-item icon-foster">
+                    </li>
+                    <li class="client-item icon-brand">
+                    </li>
+                    <li class="client-item icon-tagline">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <!-- FOOTER -->
     <footer class="foot">
-        <div class="container">
-            <a href="index.html" class="logo-foot"><span class="logo-part">Web</span>Studio</a>
-            <address>
-                <ul class="adress-list">
-                    <li class="adress-item"><a href="https://goo.gl/maps/ySmGjcdxqGTYYULQ9" class="adress-map" target="_blank"
-                            rel="noreferrer noopener nofollow">м. Київ, пр-т Лесі Українки, 26
-                        </a>
-                    </li>
-                    <li class="adress-item"><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
-                    <li class="adress-item"><a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a></li>
+        <div class="container basement">
+            <div class="basement-links">
+                <a href="index.html" class="logo-foot"><span class="logo-part">Web</span>Studio</a>
+                <address>
+                    <ul class="adress-list">
+                        <li class="adress-item"><a href="https://goo.gl/maps/ySmGjcdxqGTYYULQ9" class="adress-map" target="_blank"
+                                rel="noreferrer noopener nofollow">м. Київ, пр-т Лесі Українки, 26
+                            </a>
+                        </li>
+                        <li class="adress-item"><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
+                        <li class="adress-item"><a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="join">
+                <h3 class="join-title">приєднуйтесь</h3>
+                <ul class="join-list">
+                    <li class="join-links instagram"></li>
+                    <li class="join-links"></li>
+                    <li class="join-links"></li>
+                    <li class="join-links"></li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
