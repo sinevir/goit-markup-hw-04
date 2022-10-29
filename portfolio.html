@@ -28,11 +28,22 @@
                 </ul>
             </nav>
             <ul class="contacts">
-                <li class="item"><a class="link icon-mail" href="mailto:info@devstudio.com">@devstudio.com</a></li>
-                <li class="item"><a class="link icon-cell" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="item">
+                    <a class="link" href="mailto:info@devstudio.com">
+                        <svg class="icon-mail" width="18" height="16">
+                            <use href="./images/icons.svg#icon-link-letter"></use>
+                        </svg>info@devstudio.com</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="tel:+380961111111">
+                        <svg class="icon-cell" width="10" height="16">
+                            <use href="./images/icons.svg#icon-link-smartphone"></use>
+                        </svg>+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
+    
     <main>
         <!-- ФІЛЬТР КНОПОК -->
         <section class="port section">
@@ -133,33 +144,58 @@
             </div>
         </section>
     </main>
+
         <!-- FOOTER -->
-        <footer class="foot">
-            <div class="container basement">
-                <div class="basement-links">
-                    <a href="index.html" class="logo-foot"><span class="logo-part">Web</span>Studio</a>
-                    <address>
-                        <ul class="adress-list">
-                            <li class="adress-item"><a href="https://goo.gl/maps/ySmGjcdxqGTYYULQ9" class="adress-map"
-                                    target="_blank" rel="noreferrer noopener nofollow">м. Київ, пр-т Лесі Українки, 26
-                                </a>
-                            </li>
-                            <li class="adress-item"><a href="mailto:info@devstudio.com"
-                                    class="adress-link">info@devstudio.com</a></li>
-                            <li class="adress-item"><a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a></li>
-                        </ul>
-                    </address>
-                </div>
-                <div class="join">
-                    <h3 class="join-title">приєднуйтесь</h3>
-                    <ul class="join-list">
-                        <li class="join-links instagram"></li>
-                        <li class="join-links"></li>
-                        <li class="join-links"></li>
-                        <li class="join-links"></li>
+    <footer class="foot">
+        <div class="container basement">
+            <div class="basement-links">
+                <a href="index.html" class="logo-foot"><span class="logo-part">Web</span>Studio</a>
+                <address>
+                    <ul class="adress-list">
+                        <li class="adress-item"><a href="https://goo.gl/maps/ySmGjcdxqGTYYULQ9" class="adress-map"
+                                target="_blank" rel="noreferrer noopener nofollow">м. Київ, пр-т Лесі Українки, 26
+                            </a>
+                        </li>
+                        <li class="adress-item"><a href="mailto:info@devstudio.com"
+                                class="adress-link">info@devstudio.com</a></li>
+                        <li class="adress-item"><a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a></li>
                     </ul>
-                </div>
+                </address>
             </div>
-        </footer>
+            <div class="join">
+                <h3 class="join-title">приєднуйтесь</h3>
+                <ul class="join-list">
+                    <li>
+                        <button class="join-links" aria-label="Instagram">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-social-instagram"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="join-links" aria-label="Instagram">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-social-twitter"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="join-links" aria-label="Instagram">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-social-facebook"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="join-links" aria-label="Instagram">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-social-linkedin"></use>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
