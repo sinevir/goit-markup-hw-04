@@ -372,7 +372,9 @@ img {
   }
 
   .link-button {
-    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     width: 44px;
     height: 44px;
@@ -386,7 +388,8 @@ img {
     fill: currentColor;
   }
 
-  .link-button:hover {
+  .link-button:hover,
+  .link-button:focus {
     background-color: var(--third-text-color);
     color: var(--title-hero-color);
   }
@@ -401,6 +404,9 @@ img {
   }
 
   .client-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid var(--social-icon-color);
@@ -414,7 +420,8 @@ img {
     fill: currentColor;
   }
 
-  .client-company:hover {
+  .client-company:hover,
+  .client-company:focus {
     border: 1px solid var(--third-text-color);
     color: var(--third-text-color);
   }
@@ -495,7 +502,9 @@ img {
   }
 
   .join-links {
-    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border: none;
@@ -509,7 +518,8 @@ img {
     fill: currentColor;
   }
 
-  .join-links:hover {
+  .join-links:hover,
+  .join-links:focus {
     background-color: var(--third-text-color);
   }
 
@@ -571,10 +581,6 @@ img {
     margin-bottom: 30px;
     background-color: var(--background-card-color);
   }
-  .port-card:hover,
-  .port-card:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
 
   .port-card:nth-child(3n) {
     margin-right: 0;
@@ -591,28 +597,15 @@ img {
     border-style: solid;
   }
 
-  .port-card-web {
+  .port-link {
+    display: block;
     text-decoration: none;
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.875;
   }
-  .port-card-design {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.875;
+
+  .port-link:hover,
+  .port-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  .port-card-app {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.875;
-  }
-  .port-card-market {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-size: 16px;
-    line-height: 1.875;
-  }
-  
